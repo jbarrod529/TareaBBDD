@@ -21,7 +21,14 @@ public class Ejercicio2 {
 				distance= scanner.nextFloat();
 				System.out.println("Introduce la velocidad media prevista (km/h)");
 				velocity = scanner.nextFloat();
-				
+
+				if (velocity <=0) {
+					
+					System.out.println("La velocidad introducida debe ser un numero positivo, por favor introduce un valor valido:");
+					
+					velocity = scanner.nextFloat();
+			
+				}
 				
 				/** calulamos el tiempo */
 				
