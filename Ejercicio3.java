@@ -28,7 +28,23 @@ public class Ejercicio3 {
 	
 	num3=scanner.nextFloat();
 	
-	maxTotal=Math.max(Math.max(num1, num2),num3);
+	if(num1 > num2) {
+		if(num1 > num3) {
+			maxTotal = num1;
+		}else {
+			maxTotal = num3;
+		}
+		
+		
+	}else {
+		if (num2>num3) {
+			
+			maxTotal=num2;
+		}else {
+			maxTotal=num3;
+		}
+	}
+	
 	
 	
 	
