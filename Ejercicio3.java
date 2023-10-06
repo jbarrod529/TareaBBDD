@@ -12,7 +12,6 @@ public class Ejercicio3 {
 	float num1;
 	float num2;
 	float num3;
-	float max1;
 	float maxTotal;
 	
 	System.out.println("Vamos a calcular el valor máximo de tres numeros que introduzcas, ¡comencemos!");
@@ -29,9 +28,8 @@ public class Ejercicio3 {
 	
 	num3=scanner.nextFloat();
 	
+	maxTotal=Math.max(Math.max(num1, num2),num3);
 	
-	max1=Math.max(num1, num2);
-	maxTotal=Math.max(num3, max1);
 	
 	
 	System.out.println("El valor máximo introducido es :"+maxTotal);
