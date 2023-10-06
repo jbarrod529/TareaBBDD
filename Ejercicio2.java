@@ -2,7 +2,7 @@ package daw1.comienzo;
 
 import java.util.Scanner;
 
-public class velocidad {
+public class Ejercicio2 {
 	
 	public static void main(String[] args) {
 		
