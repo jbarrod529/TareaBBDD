@@ -6,10 +6,10 @@ public class Ejercicio2 {
 	
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner (System.in);
 		   
 		   
-		   /** Inicializo las variables */
+		   /** Inicializamos las variables */
 				float distance;
 				float velocity;
 				int timeHour;
@@ -17,16 +17,16 @@ public class Ejercicio2 {
 				
 				
 				/** Obtengo los datos */
-				System.out.println("Introduce la distancia a recorrer");
-				distance= scanner.nextFloat();
+				System.out.println("Introduce la distancia a recorrer en km");
+				distance= sc.nextFloat();
 				System.out.println("Introduce la velocidad media prevista (km/h)");
-				velocity = scanner.nextFloat();
+				velocity = sc.nextFloat();
 
-				if (velocity <=0) {
+				while (velocity <=0) {
 					
 					System.out.println("La velocidad introducida debe ser un numero positivo, por favor introduce un valor valido:");
 					
-					velocity = scanner.nextFloat();
+					velocity = sc.nextFloat();
 			
 				}
 				
