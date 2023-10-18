@@ -19,6 +19,15 @@ public class Ejercicio2 {
 				/** Obtengo los datos */
 				System.out.println("Introduce la distancia a recorrer en km");
 				distance= sc.nextFloat();
+		
+				while (distance <0) {
+					
+					System.out.println("La distancia introducida debe ser un numero mayor o igual que 0, por favor introduce un valor valido:");
+					
+					velocity = sc.nextFloat();
+			
+				}
+	
 				System.out.println("Introduce la velocidad media prevista (km/h)");
 				velocity = sc.nextFloat();
 
