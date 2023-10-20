@@ -28,17 +28,17 @@ public class Ejercicio5 {
 			
 			System.out.println("Infante");
 		}
-		if(age>=12 && age<18) {
+		else if(age>=12 && age<18) {
 			
 			System.out.println("Adolescente");
 		}
 		
-		if(age>=18 && age<=60) {
+		else if(age>=18 && age<=60) {
 			
 			System.out.println("Adulto");
 		}
 		
-		if(age>60) {
+		else if(age>60) {
 			
 			System.out.println("Anciano");
 		}
