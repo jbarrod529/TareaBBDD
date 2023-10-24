@@ -15,7 +15,11 @@ public class Ejercicio7 {
 		System.out.print("Introduce un numero entero:");
 		n = sc.nextInt();
 		
-		
+		while(n<1 || n>10) {
+			
+			System.out.println("El numero introducido no está dentro del rango solicitado, por favor introduzca un numero del 1 al 10");
+			n = sc.nextInt();
+		}
 		
 		for(i=0;i<=10;i++) {
 			
