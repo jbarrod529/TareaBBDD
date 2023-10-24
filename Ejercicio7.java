@@ -17,7 +17,7 @@ public class Ejercicio7 {
 		
 		
 		
-		for(i=1;i<=10;i++) {
+		for(i=0;i<=10;i++) {
 			
 			multiplicacion = n*i;
 		
